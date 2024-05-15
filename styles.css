@@ -1,2 +1,39 @@
 
 /* Your CSS Code here. */
+caption
+{
+	font-size:25px;
+	font-weight:bold;
+	color:darkcyan;
+    
+}
+table{
+	margin:40px auto;
+	 width: 70%;
+    border-collapse: collapse; /* Removes the space between the borders */
+	border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	/* border-collapse: collapse;  */
+}
+th{
+	background-color:gray;
+	color:white;
+}
+td,th{
+	padding:10px;
+	border-right: 1px solid gray;
+}
+th:last-child, td:last-child {
+    border-right: none; /* Removes the border from the last cell in the row */
+}
+
+tr:not(:last-child) {
+    border-bottom: 1px solid black; /* Adds a horizontal line between rows, but not at the bottom */
+  }
+
+
+
+
+
+
+

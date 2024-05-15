@@ -13,7 +13,6 @@ table{
     border-collapse: collapse; /* Removes the space between the borders */
 	border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	/* border-collapse: collapse;  */
 }
 th{
 	background-color:gray;
